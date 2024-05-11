@@ -1,0 +1,190 @@
+.banner {
+    background-color: #000;
+    color: #fff;
+}
+
+.banner .container {
+    padding-top: 274px;
+    padding-bottom: 274px;
+    background-image: url(../img/banner.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 1.5153;
+    margin-bottom: 16px;
+}
+
+.banner-subtitle {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
+.banner-description {
+    font-size: 25px;
+    margin-bottom: 44px;
+    max-width: 640px;
+}
+
+.banner-link {
+    font-weight: 600;
+    font-size: 28px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 24px 66px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
+
+/*rates*/
+.rates {
+    color: #2E3A59;
+    background-color: #F5F9FF;
+    padding: 96px 0 142px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.rates__title {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 80px;
+}
+
+
+.rates__title span {
+    position: relative;
+}
+
+.rates__title span:before,
+.rates__title span:after {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 8px;
+    background-color: #FB8500;
+    position: absolute;
+    left: -36px;
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.rates__title span:after {
+    content: "";
+    left: initial;
+    top: initial;
+    right: -36px;
+    bottom: 0;
+}
+
+.rates__row {
+    display: flex;
+    gap: 37px;
+}
+
+.rates__item {
+    max-width: 440px;
+    width: 100%;
+    border-radius: 5px 55px 5px 55px;
+    background-color: #FFFFFF;
+    box-shadow: 0 20px 35px #0000000d;
+}
+
+.rates__item-case {
+    border-radius: 5px 55px 0px 55px;
+    text-align: center;
+    padding: 23px;
+    line-height: 1.2;
+    font-size: 21px;
+    color: #fff;
+    box-shadow: 0 20px 35px 0 #0000000d;
+    margin-bottom: 48px;
+    background: linear-gradient(162deg, #05FFFF 0%, #0AA6FE 100%);
+}
+
+
+
+
+.rates__item-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.rates__advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    list-style: none;
+    padding: 0 48px;
+    width: max-content;
+    margin-bottom: 28px;
+}
+
+.rates__advantages-item {
+    font-size: 18px;
+    padding-left: 37px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='19' viewBox='0 0 25 19' fill='none'%3E%3Cpath d='M8.3339 18.3767L0 10.5247L2.38063 8.28173L8.33642 13.8868L8.3339 13.8892L22.6194 0.429688L25 2.67267L10.7145 16.1338L8.33558 18.3752L8.3339 18.3767Z' fill='%2300D121'/%3E%3C/svg%3E");
+}
+
+.rates__advantages-item_close {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 19 19' fill='none'%3E%3Cpath d='M17.0864 0.864258L9.5 8.03026L1.91357 0.864258L0 2.67178L7.58643 9.83779L0 17.0038L1.91357 18.8113L9.5 11.6453L17.0864 18.8113L19 17.0038L11.4136 9.83779L19 2.67178L17.0864 0.864258Z' fill='%23FF3D00'/%3E%3C/svg%3E");
+}
+
+.rates__item-price {
+    padding: 0 48px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0 auto 18px;
+    width: max-content;
+    display: flex;
+}
+
+.rates__item-price span {
+    font-size: 35px;
+    margin: 0 0 0 25px;
+}
+
+.rates__item-button {
+    display: flex;
+    justify-content: center;
+    border-radius:  0 0 5px 55px;
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+    background: linear-gradient(157deg, #ff9b05 0%, #ff8f3f 100%);
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 25px 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.rates__item-button img {
+    margin-left: 24px;
+}
+
+.rates__item-button:hover {
+    background: linear-gradient(157deg, #ff4c05 0%, #ff6f3f 100%);
+}
+
+ 
+
+.gradient-pink {
+    background: linear-gradient(79deg, #dda6ff 0%, #d828f4 100%);
+}
+
+.gradient-red {
+    background: linear-gradient(162deg, #ff9898 0%, #ff1f00 100%);
+}

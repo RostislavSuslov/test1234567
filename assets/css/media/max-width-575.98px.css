@@ -1,0 +1,15 @@
+@media (max-width: 575.98px) {
+    .banner .container {
+        padding-top: 43vh;
+        padding-bottom: 50px;
+        background: url(../../img/banner-mobile.png) center 5vh/contain no-repeat;
+        min-height: 100vh;
+        text-align: center;
+    } 
+    .banner-title {
+        font-size: 36px;
+    }
+    .banner-subtitle {
+        font-size: 26px;
+    }
+}

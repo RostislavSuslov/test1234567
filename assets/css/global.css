@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, caption, .page-title {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.4em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* 
+h1, .page-title {
+    font-size: 2.25rem; 
+}
+
+h2, caption {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+} */
+
+caption {
+    text-align: left;
+}
+
+.example {
+    padding: 48px 0;
+    margin-bottom: 48px;
+    background-color: #f0f8ff;
+}
+
+.page-title,
+.page-title + h2 {
+    width: 100%;
+    max-width: calc(1395px + var(--container-padding) * 2);
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.merienda {
+    font-family: "Merienda", cursive;
+}
+
+.inter {
+    font-family: "Inter", "Merienda", "Poppins", sans-serif;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}

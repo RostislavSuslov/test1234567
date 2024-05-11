@@ -1,0 +1,65 @@
+.flex-test {
+    border: 1px solid;
+    font-size: 28px;
+    height: 96px;
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background: chartreuse;
+}
+
+.first-child .flex-element:first-child {
+    background-color: #FF9800;
+}
+
+.last-child .flex-element:last-child {
+    background-color: #FF9800;
+}
+
+.nth-child-7 .flex-element:nth-child(7) {
+    background-color: #FF9800;
+}
+
+.nth-child-odd .flex-element:nth-child(odd) {
+    background-color: #FF9800;
+}
+
+.nth-child-even .flex-element:nth-child(even) {
+    background-color: #FF9800;
+}
+
+.nth-child-5n .flex-element:nth-child(5n) {
+    background-color: #FF9800;
+}
+
+.nth-child-5n-2 .flex-element:nth-child(5n-2) {
+    background-color: #FF9800;
+}
+
+.nth-child-5n\+2 .flex-element:nth-child(5n+2) {
+    background-color: #FF9800;
+}
+
+.nth-child-n  .flex-element:nth-child(n) {
+    background-color: #FF9800;
+}
+
+.nth-child-n\+7  .flex-element:nth-child(n+7) {
+    background-color: #FF9800;
+}
+.nth-child--n\+15 .flex-element:nth-child(-n+15) {
+    background-color: #FF9800;
+}
+.nth-child-diapason .flex-element:nth-child(n+7):nth-child(-n+15) {
+    background-color: #FF9800;
+}
+
+.nth-child-diapason2 .flex-element:nth-child(n+2):nth-child(-n+7) {
+    background-color: red;
+}
+
+.nth-child-diapason2 .flex-element:nth-child(n+13):nth-child(-n+18) {
+    background-color: red;
+}

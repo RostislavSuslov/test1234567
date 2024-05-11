@@ -1,0 +1,39 @@
+@media (max-width: 1399.98px) {
+    .rates__advantages {
+        width: initial;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .banner .container {
+        padding-top: 240px;
+        padding-bottom: 240px;
+        background-size: 100%;
+    }
+
+    .banner-title {
+        font-size: 56px;
+    }
+
+    .banner-subtitle {
+        font-size: 38px;
+    }
+
+    .banner-link {
+        font-size: 26px;
+        padding: 22px 60px;
+    }
+
+    .rates__row {
+        gap: 25px;
+    }
+
+    .rates__advantages {
+        gap: 25px;
+        padding: 0 30px;
+    }
+    
+    .rates__advantages-item {
+        font-size: 16px;
+    }
+}

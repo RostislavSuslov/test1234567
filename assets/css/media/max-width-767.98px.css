@@ -1,0 +1,16 @@
+@media (max-width: 767.98px) {
+    .banner-title {
+        font-size: 38px;
+    }
+    
+    .banner-description {
+        font-size: 16px;
+        margin-bottom: 32px;
+        max-width: 380px;
+    }
+
+    .banner-link {
+        font-size: 18px;
+        padding: 18px 50px;
+    }
+}

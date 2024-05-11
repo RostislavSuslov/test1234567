@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-10</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="page-title">:first-child, :last-child, :nth-child</h1>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:first-child</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Первый</li>
+                </ul>
+                <div class="flex-container first-child">
+
+                    <div class="flex-element">1</div>
+                    <div class="flex-test">test</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:last-child</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Последний</li>
+                </ul>
+                <div class="flex-container last-child">
+
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-test">test</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(7)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">7-й</li>
+                </ul>
+                <div class="flex-container nth-child-7">
+                    <div class="flex-test">test</div>
+                    <div class="flex-test">test</div>
+                    <div class="flex-test">test</div>
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(odd)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">nth-child(odd) — выбирает нечётные элементы внутри родителя</li>
+                </ul>
+                <div class="flex-container nth-child-odd">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(even)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">nth-child(even) — выбирает чётные элементы внутри родителя</li>
+                </ul>
+                <div class="flex-container nth-child-even">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(5n)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">:nth-child(5n) — выбирает каждый 5-й внутри родителя</li>
+                </ul>
+                <div class="flex-container nth-child-5n">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(5n-2)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Каждый 5-й начиная с 3-го (5-2=3)</li>
+                </ul>
+                <div class="flex-container nth-child-5n-2">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(5n+2)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Каждый 5-й начиная со 2-го</li>
+                </ul>
+                <div class="flex-container nth-child-5n+2">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(n)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Каждый</li>
+                </ul>
+                <div class="flex-container nth-child-n">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(n+7)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Каждый начиная с 7-го</li>
+                </ul>
+                <div class="flex-container nth-child-n+7">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(-n+15)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Каждый до 15-го</li>
+                </ul>
+                <div class="flex-container nth-child--n+15">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">:nth-child(n+7):nth-child(-n+15)</h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Каждый от 7-го до 15-го</li>
+                </ul>
+                <div class="flex-container nth-child-diapason">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">
+                    <div>selector:nth-child(n+2):nth-child(-n+7)</div>
+                    <div>selector:nth-child(n+13):nth-child(-n+18)</div>
+                </h2>
+                <ul class="flex-value-list">
+                    <li class="value-item">Каждый от 2-го до 7-го и от 13-го до 18-го</li>
+                </ul>
+                <div class="flex-container nth-child-diapason2 nth-child-diapason3">
+                    <div class="flex-element">1</div>
+                    <div class="flex-element">2</div>
+                    <div class="flex-element">3</div>
+                    <div class="flex-element">4</div>
+                    <div class="flex-element">5</div>
+                    <div class="flex-element">6</div>
+                    <div class="flex-element">7</div>
+
+                    <div class="flex-element">8</div>
+                    <div class="flex-element">9</div>
+                    <div class="flex-element">10</div>
+                    <div class="flex-element">11</div>
+                    <div class="flex-element">12</div>
+                    <div class="flex-element">13</div>
+                    <div class="flex-element">14</div>
+
+                    <div class="flex-element">15</div>
+                    <div class="flex-element">16</div>
+                    <div class="flex-element">17</div>
+                    <div class="flex-element">18</div>
+                    <div class="flex-element">19</div>
+                    <div class="flex-element">20</div>
+                    <div class="flex-element">21</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

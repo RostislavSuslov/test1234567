@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-5</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+ 
+        <h1 class="page-title">Table HTML</h1>
+        <h1 class="page-title">Table HTML</h1>
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">Case 1</h2>
+                <table>
+                    <caption>Table caption</caption>
+                    <tr class="first-row">
+                        <th class="a">1-й ряд, 1-я ячека</th>
+                        <th class="b">1-й ряд, 2-я ячека</th>
+                        <th class="c">1-й ряд, 3-я ячека</th>
+                        <th class="d">1-й ряд, 4-я ячека</th>
+                        <th class="e">1-й ряд, 5-я ячека</th>
+                    </tr>
+                     
+                    <tr class="second-row">
+                        <td>2-й ряд, 1-я ячека</td>
+                        <td>2-й ряд, 2-я ячека</td>
+                        <td>2-й ряд, 3-я ячека</td>
+                        <td>2-й ряд, 4-я ячека</td>
+                        <td>2-й ряд, 5-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td>3-й ряд, 1-я ячека</td>
+                        <td>3-й ряд, 2-я ячека</td>
+                        <td>3-й ряд, 3-я ячека</td>
+                        <td>3-й ряд, 4-я ячека</td>
+                        <td>3-й ряд, 5-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td>4-й ряд, 1-я ячека</td>
+                        <td>4-й ряд, 2-я ячека</td>
+                        <td>4-й ряд, 3-я ячека</td>
+                        <td>4-й ряд, 4-я ячека</td>
+                        <td>4-й ряд, 5-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td>5-й ряд, 1-я ячека</td>
+                        <td>5-й ряд, 2-я ячека</td>
+                        <td>5-й ряд, 3-я ячека</td>
+                        <td>5-й ряд, 4-я ячека</td>
+                        <td>5-й ряд, 5-я ячека</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">Case 2</h2>
+                <table>
+                    <caption>Table caption</caption>
+                    <thead>
+                        <tr>
+                            <th>1-й ряд, 1-я ячека</th>
+                            <th>1-й ряд, 2-я ячека</th>
+                            <th>1-й ряд, 3-я ячека</th>
+                            <th>1-й ряд, 4-я ячека</th>
+                            <th>1-й ряд, 5-я ячека</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td colspan="2">2-й ряд, 1-я ячека</td>
+                        <td>2-й ряд, 2-я ячека</td>
+                        <td>2-й ряд, 3-я ячека</td>
+                        <td>2-й ряд, 4-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">2-й ряд, 1-я ячека</td>
+                        <td>3-й ряд, 2-я ячека</td>
+                        <td>3-й ряд, 3-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">2-й ряд, 1-я ячека</td>
+                        <td>4-й ряд, 2-я ячека</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">2-й ряд, 1-я ячека</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <section class="example">
+            <div class="container">
+                <h2 class="example-title">Case 3</h2>
+                <table>
+                    <caption>Table caption</caption>
+                    <thead>
+                        <tr>
+                            <th>1-й ряд, 1-я ячека</th>
+                            <th>1-й ряд, 2-я ячека</th>
+                            <th>1-й ряд, 3-я ячека</th>
+                            <th>1-й ряд, 4-я ячека</th>
+                            <th>1-й ряд, 5-я ячека</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="test">2-й ряд, 1-я ячека</td>
+                        <td rowspan="2">2-й ряд, 2-я ячека</td>
+                        <td rowspan="3">2-й ряд, 3-я ячека</td>
+                        <td rowspan="4" colspan="2">2-й ряд, 4-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td>3-й ряд, 1-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td>4-й ряд, 1-я ячека</td>
+                        <td>4-й ряд, 2-я ячека</td>
+                    </tr>
+                    <tr>
+                        <td>5-й ряд, 1-я ячека</td>
+                        <td>5-й ряд, 2-я ячека</td>
+                        <td>5-й ряд, 3-я ячека</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    
+</body>
+
+</html>

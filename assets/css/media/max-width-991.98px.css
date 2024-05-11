@@ -1,0 +1,61 @@
+@media (max-width: 991.98px) {
+    .banner .container {
+        padding-top: 210px;
+        padding-bottom: 210px;
+        background-size: 100%;
+    }
+
+    .banner-title {
+        font-size: 48px;
+    }
+
+    .banner-subtitle {
+        font-size: 32px;
+    }
+
+    .banner-description {
+        font-size: 18px;
+        margin-bottom: 36px;
+        max-width: 475px;
+    }
+
+    .banner-link {
+        font-size: 22px;
+        padding: 20px 56px;
+    }
+
+    .rates__row {
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .questions {
+        padding: 100px 0;
+    }
+
+    .questions-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .questions-subtitle {
+        font-size: 18px;
+    }
+
+    .questions-head {
+        margin: 0 auto 60px;
+    }
+
+    .accordion-button {
+        font-size: 20px;
+        padding: 24px 0 24px;
+    }
+    
+    .accordion-button::after,
+    .accordion-button:not(.collapsed)::after {
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+    }
+}
